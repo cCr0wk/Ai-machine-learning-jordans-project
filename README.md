@@ -16,9 +16,9 @@ step-1 install pytorch using ```./install-pytorch.sh```
 
 step-2 download dataset via wget or manually 
 
-step-3 when in 'jetson-inference/python/training/classification/data' run 'python3 train.py --model-dir=models/jordans data/jordans  --batch-size=4 --workers=1 --epochs=30 data/jordans' to train AI.
+step-3 when in jetson-inference/python/training/classification/data run ```python3 train.py --model-dir=models/jordans data/jordans  --batch-size=4 --workers=1 --epochs=30 data/jordans``` to train AI.
 
-step-4 after training convert to ONNX with 'python3 onnx_export.py ```--model-dir=models/```
+step-4 after training convert to ONNX with ```python3 onnx_export.py --model-dir=models/```
 
 step-5 test images with renset using ```imagenet --model=models/jordans/resnet18.onnx --labels=data/jordans/labels.txt   --input_blob=input_0 --output_blob=output_0 data/jordans/test/<file of choice>/<image of choice>```
 
