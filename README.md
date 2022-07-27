@@ -12,8 +12,6 @@ The Algorithim is a method implemented in the AI to find patterns within dataset
 
 ## Running this project
 
-
-1.
 step-1 install pytorch using ```./install-pytorch.sh```
 
 step-2 download dataset via wget or manually 
