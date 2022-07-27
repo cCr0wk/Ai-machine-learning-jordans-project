@@ -8,7 +8,7 @@
 
 ## The Algorithm
 
-The Algorithim is a method implemented in the AI to find patterns within datasets. The code works by depdning on pytorch and finding patterns within datasets.
+The Algorithim is a method implemented in the AI to find patterns within datasets. The code works by depending on pytorch and finding patterns within datasets.
 
 ## Running this project
 
