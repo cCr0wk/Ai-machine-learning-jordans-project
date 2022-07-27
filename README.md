@@ -2,6 +2,10 @@
 
  The tools and dataset provided will be used to classify and idenitfy air jordans.
 
+## Requirements
+1. jetson nano
+
+2. must import pytorch and torchvision into terminal
 
 ## The Algorithm
 
@@ -9,6 +13,8 @@ The Algorithim is a method implemented in the AI to find patterns within dataset
 
 ## Running this project
 
+
+1.
 step-1 install pytorch using './install-pytorch.sh'
 
 step-2 download dataset via wget or manually 
@@ -18,3 +24,6 @@ step-3 when in 'jetson-inference/python/training/classification/data' run 'pytho
 step-4 after training convert to ONNX with 'python3 onnx_export.py --model-dir=models/'.
 
 step-5 test images with renset using 'imagenet --model=models/jordans/resnet18.onnx --labels=data/jordans/labels.txt   --input_blob=input_0 --output_blob=output_0 data/jordans/test/<file of choice>/<image of choice>
+
+ 
+ 
