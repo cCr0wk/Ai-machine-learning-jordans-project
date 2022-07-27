@@ -22,5 +22,6 @@ step-4 after training convert to ONNX with ```python3 onnx_export.py --model-dir
 
 step-5 test images with renset using ```imagenet --model=models/jordans/resnet18.onnx --labels=data/jordans/labels.txt   --input_blob=input_0 --output_blob=output_0 data/jordans/test/<file of choice>/<image of choice>```
 
- 
+ ## video documentation
+ https://youtu.be/6VADh4ZtXLs
  
